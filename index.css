@@ -64,7 +64,6 @@ h2,h4, p, r{
 .text{
    width:40;
   height: 100%;
-  
   display:inline-block;
   vertical-align:top;
 }
@@ -88,13 +87,19 @@ h2,h4, p, r{
 .change{
    width:43%;
   height: 75%;
-
   display:inline-block;
   vertical-align:top;
   margin-top:30px;
 }
+.change a:hover{
+  text-decoration-line: none;
+  color:#8593de;
+}
 .change a{
   margin:70px;
+  color:#3829e0;
+  
+  
   
 }
 
@@ -112,7 +117,14 @@ h2,h4, p, r{
   margin-left:125px;
   margin-top:-10px;
   color:#3829e0;
+  text-decoration-line: none;
+  color:#c8cde8;
+  
 
+}
+
+.cancel:hover{
+ color:black;
 }
   button{
   background-color:#3829e0;
@@ -120,6 +132,10 @@ h2,h4, p, r{
   border-radius:10px;
   width:50%;
   height: 7%;
+    border:none;
+}
+button:hover{
+  background-color:#857afa;
 }
 .cancel, .procced, .change{
   cursor:pointer;
